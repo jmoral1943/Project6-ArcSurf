@@ -2,13 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="192x192" href="./logo/logo2.png" />
+    <meta name="theme-color" content="#317EFB"/>
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="./logo/logo.png" />
     <meta
       name="description"
       content="Arc surf surf shop. Men's and women's surfboard and apparel"
     />
+    <title>Arc Surf Shop</title>
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
   </body>
 </html>

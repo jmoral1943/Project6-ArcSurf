@@ -2,9 +2,9 @@ import React from "react";
 
 import leftArrow from "../../../assets/images/circle-left.svg";
 import rightArrow from "../../../assets/images/circle-right.svg";
-import imageOne from "../../../assets/png/slider1.jpg";
-import imageTwo from "../../../assets/png/slider2.jpg";
-import imageThree from "../../../assets/png/slider3.jpg";
+import imageOne from "../../../assets/png/slider1.webp";
+import imageTwo from "../../../assets/png/slider2.webp";
+import imageThree from "../../../assets/png/slider3.webp";
 
 const Hero = () => {
   let i = 2;

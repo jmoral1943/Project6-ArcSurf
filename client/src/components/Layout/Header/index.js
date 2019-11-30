@@ -22,26 +22,13 @@ const Header = props => {
 
       let isNavOpen = navOpen;
       hamburger.classList.toggle("is-active");
+      document.querySelector(".c-nav").classList.toggle("c-nav--desktop")
       isNavOpen = !isNavOpen;
       setNav(isNavOpen);
-
-      if (isNavOpen) {
-        document.querySelector(".c-nav").style.opacity = "1";
-      } else {
-        document.querySelector(".c-nav").style.opacity = "0";
-      }
     }
   };
 
-  // useEffect(() => {
-  //   window.addEventListener("resize", () => setWidth(window.innerWidth));
-
-  //   if (width >= 1000) {
-  //     document.querySelector(".c-nav").style.opacity = "1";
-  //   } else {
-  //     document.querySelector(".c-nav").style.opacity = "1";
-  //   }
-  // });
+  
   useEffect(() => {
     const user = httpClient.getCurrentUser();
     if (user == null) return;

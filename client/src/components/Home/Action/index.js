@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 
-import background from "../../../assets/png/home3.png";
-import people from "../../../assets/png/home4.jpeg";
+import background from "../../../assets/png/home3.webp";
+import people from "../../../assets/png/home4.webp";
 
 const Action = () => (
   <div className="c-home-action">

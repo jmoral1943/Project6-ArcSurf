@@ -69,7 +69,16 @@
   outline: none;
 }
 
+.c-nav--desktop {
+  opacity: 1;
+}
+
+
 @media (min-width: 1000px) {
+  .c-nav--desktop {
+    opacity: 1;
+  }
+
   .c-nav__item {
     margin-top: unset;
   }

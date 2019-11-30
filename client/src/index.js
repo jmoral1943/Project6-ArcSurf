@@ -29,6 +29,9 @@ import ScrollToTop from "./ScrollToTop";
 import Single_Product from "./components/Products/Single_Product";
 import Admin from "./components/Admin";
 
+import * as serviceWorker from './serviceworker'
+
+
 // creating a store for redux with the redux chrome extension
 export const store = createStore(
   reducer,
@@ -78,3 +81,5 @@ ReactDOM.render(
   <Provider store={store}>{Routing}</Provider>,
   document.getElementById("root")
 );
+
+serviceWorker.register();

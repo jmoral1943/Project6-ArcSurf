@@ -11,12 +11,12 @@ const Home = () => (
     <div className="c-home__banners">
       <Card
         name="Guy sitting down on a wall"
-        url="home1.png"
+        url="home1.webp"
         collection="Worldwide Collection"
       />
       <Card
         name="Action shot of a guy surfing on a wave"
-        url="home2.png"
+        url="home2.webp"
         collection="Surfboards"
       />
     </div>
@@ -24,17 +24,17 @@ const Home = () => (
     <div className="c-home__vertical-banners">
       <VerticalCards
         name="Man streching in a wetsuit"
-        url="home5.png"
+        url="home5.webp"
         collection="Wetsuits"
       />
       <VerticalCards
         name="Man walking with converse on"
-        url="home6.png"
+        url="home6.webp"
         collection="Shoes"
       />
       <VerticalCards
         name="Man posing in a shirt"
-        url="home7.png"
+        url="home7.webp"
         collection="Shirts"
       />
     </div>
