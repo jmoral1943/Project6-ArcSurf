@@ -30,6 +30,9 @@ npm i
 npm run start
 ```
 
+## Mobile Screenshot 
+![Mobile Icon](./audits/mobile-screenshot.jpg)
+
 ## Built With
 
 - [NodeJS](https://nodejs.org/en/) - Back-end
