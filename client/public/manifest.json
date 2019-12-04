@@ -5,7 +5,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "logo/logo.png",
+      "src": "./logo/android-icon-192x192.png",
       "sizes": "192x192",
       "type": "images/png"
     },
