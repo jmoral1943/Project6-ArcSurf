@@ -30,6 +30,12 @@ npm i
 npm run start
 ```
 
+## Audit Before
+![Audit Before](./audits/audit-before.png)
+
+## Audit After
+![Audit After](./audits/audit-after.png)
+
 ## Mobile Screenshot 
 ![Mobile Icon](./audits/mobile-screenshot.jpg)
 
